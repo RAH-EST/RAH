@@ -159,6 +159,10 @@ font-family:"Reem Kufi";
     color: #3a3a3a;
 	margin:0;
 }
+.www-rah {
+    font-family: Reem Kufi;
+    text-align: center;
+}
 /*--نهاية الوصف--*/
     
 /*--المنطقة الوسطى--*/
@@ -239,7 +243,7 @@ width:100%;
     margin-bottom: 50px;
 }
 .div-center-2-1-2-1 {
-    width: 25%;
+    width: 20%;
 	    margin: auto;
 }
 .div-center-2-1-2-1 img {
@@ -408,14 +412,108 @@ height: 24px;
 position: relative;
 top: 7px;
 }
+.div-center-2-1-2-1 {
+    width: 39%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 41px;
+    display: inline-table;
+}
+.div-center-2-1-2 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+    
+    
 }
 @media screen and (max-width:640px) {
 
 }
-@media screen and (max-width:480px) {
+@media screen and (max-width:530px) {
+.div-center-2-1-2-1 {
+    width: 39%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 35px;
+    display: inline-table;
+}
     
 }
-@media screen and (max-width:320px) {
+@media screen and (max-width:430px) {
+.div-center-2-1 {
+    width: 97%;
+    margin: auto;
+}
+.div-top-1 {
+    padding: 88px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #ffffffed;
+}
+      
+    .div-center-2-1-2-1 {
+    width: 39%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 25px;
+    display: inline-table;
+}  
+    div#rah-bottombar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+ .osamaalmousa img {
+    height: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 2px;
+         width: auto;
+}   
+}
+@media screen and (max-width:280px){
+    
 
+    
+}
+@media screen and (max-width:260px){
+    
+    .div-center-1 {
+    width: 70%;
+}
+    .div-center-2-1-2-1 {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 25px;
+    display: inline-table;
+}
 }
 
+@media screen and (max-width:210px){
+     .div-center-1 {
+    width: 61%;
+}  
+    p.p-top-1 {
+    font-size: xx-large;
+}
+ p.www-rah {
+    font-size: smaller;
+}   
+}
+@media screen and (max-width:180px){
+        .div-center-1 {
+    width: 54%;
+    }
+} 
+    @media screen and (max-width:150px){
+    .div-center-1 {
+    width: 47%;
+    }
+        p.www-rah {
+    font-size: 12px;
+}
+}
