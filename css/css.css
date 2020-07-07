@@ -292,11 +292,121 @@ width:100%;
 }
 /*--نهاية الشريط السفلي--*/
 
-@media screen and (max-width:980px) {
-
+/*--- الشاشات الصغيرة ---*/
+/*--الشريط العلوي للشاشات الصغيرة--*/
+.topbar2{
+    display: none;
 }
-@media screen and (max-width:768px) {
+/*--نهاية الشريط العلوي للشاشات الصغيرة--*/
 
+
+@media screen and (max-width:700px) {
+    .topbar1{
+        display: none
+    }
+    .topbar2{
+height:40px;width:100%;    
+background: #fdfdfd;
+border-bottom: #4545454a solid 1px;
+    BOX-SHADOW: 0PX 1PX 3PX 0PX #b9b9b9;
+	    position: fixed;
+    z-index: 1000;
+            display: block;
+
+    }
+    .topbar2_1 {
+    display: block;
+    height: 40px;
+    float: right;
+        margin-right: 6px;
+}
+.topbar2_1 a {
+    height: 40px;
+    width: 60px;
+    display: block;
+    background: #f3f3f380;
+    border: #4545454a solid 1px;
+    border-top: 0;
+    border-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.topbar2_1 a img {
+    height: 37px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 1px;
+}
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left: 0;
+    background-color: #484848;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav a{
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+}
+.sidenav a:hover{
+    color: black;
+}
+    .sidenav .closebtn{
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    #main{
+        transition: margin-left .5s;
+    }
+    span{
+    font-size: 37px;
+    cursor: pointer;
+    bottom: 8px;
+    position: relative;
+    padding-left: 4px;
+    }
+    .Social-side {
+height: 40px;
+float: left;
+            width: 100%;
+}
+.Social-side ul {
+margin: 0;
+}
+.Social-side li {
+    float: left;
+    border-top: 0;
+    border-bottom: 0;
+    margin-right: 3px;
+    padding-top: 0;
+    height: 40px;
+    list-style: none;
+    margin-left: 3px;
+}
+.Social-side ul li a {
+    padding: 12px;
+}
+.Social-side ul a:hover {
+}
+.Social-side ul li img {
+height: 24px;
+position: relative;
+top: 7px;
+}
 }
 @media screen and (max-width:640px) {
 
