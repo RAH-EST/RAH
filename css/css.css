@@ -478,7 +478,7 @@ top: 7px;
          width: auto;
 }   
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:420px){
     .topbar2{
     display: none;
 }
