@@ -42,7 +42,7 @@
       <div class='topbar1_2'>
         <ul>
           <li>
-            <a href='https://www.facebook.com/rah.est.tech'>
+            <a href='https://www.facebook.com/rah.est.tech' >
               <img src='photos/f.png'/>
             </a>
           </li>
@@ -254,5 +254,16 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
 <!--End of Tawk.to Script-->
+<script type='text/javascript'>
+//<![CDATA[
+jQuery('a').each(function() {
+// Let's make external links open in a new window.
+var href = jQuery(this).attr('href');
+if (typeof href != 'undefined' && href != "" && (href.indexOf('http://') != -1 || href.indexOf('https://') != -1) && href.indexOf(window.location.hostname) == -1) {
+jQuery(this).attr("target", "_blank");
+}
+});
+//]]>
+</script>
 </body>
 </html>
